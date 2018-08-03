@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Splurty</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="col-10 offset-1 about">
+      <h1>About Splurty</h1>
+
+      <p>Splurty was built by <a target="_blank" href="https://github.com/kari-schendel">Kari</a>. An aspiring web developer.</p>
+      <p> Currently learning how to code through The Firehouse Project.</p>
+
+      <div class="row">
+        <div class="col-12 col-sm-4">
+          <%= image_tag 'mouse.jpg', class: 'img-fluid' %>
+        </div>
+
+        <div class="col-12 col-sm-7 offset-sm-1">
+          <h2 class="text-center">Kari Schendel</h2>
+          <br />
+          <p>Kari Schendel is a web developer and has a background in IT. She also currently has two A.A.S degrees in Desktop Support and Network Administration.</p>
+        </div>
+    </div>
+
+    <br class="clear">
+    <br />
+    <br />
+    <br />
+    <br />
+  
+  </body>
+</html>
